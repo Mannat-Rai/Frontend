@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment CV</title>
+  <style>
+    body {
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 2px solid #333;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #222;
+    }
+
+    .header-text h3 {
+      margin: 5px 0 0;
+      font-weight: normal;
+      color: #555;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .box {
+      border: 1px solid black;
+      padding: 10px;
+      background-color: white;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ddd;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <h1>Portfolio</h1>
+  </nav>
+
+  <header class="header">
+    <img src="pfp .jpg" alt="Profile Photo">
+    <div class="header-text">
+      <h1>Mannat Rai</h1>
+      <h3>Full Stack Developer</h3>
+      <p>Email: raim81144@gmail.com | Phone: 9755933949</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/mannat-rai-933806310" target="_blank">Mannat Rai</a></p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me :</h2>
+      <p class="box">
+        I am a passionate and dedicated computer science student with a strong foundation in programming
+        languages such as C, C++, Java, and Python. I have a keen interest in web development and have
+        hands-on experience with HTML5, CSS3, Bootstrap, Tailwind CSS, and the MERN stack. I also practice
+        Data Structures & Algorithms regularly on LeetCode and HackerRank.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education :</h2>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Degree</th>
+          <th>Institute</th>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Secondary School</td>
+          <td>St Aloysius Senior Secondary School, Rimjha, Jabalpur</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Senior Secondary School</td>
+          <td>Ryan International School, Jabalpur</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>B.Tech (Pursuing)</td>
+          <td>GLA University, Mathura</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Skills :</h2>
+      <ul class="box">
+        <li><b>Programming Languages:</b> C, C++, Java, Python</li>
+        <li><b>Web Development:</b> HTML5, CSS3, Bootstrap, Tailwind CSS</li>
+        <li><b>MERN Stack:</b> MongoDB, Express.js, React.js, Node.js</li>
+        <li><b>Problem Solving:</b> Data Structures & Algorithms, OOPs</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects :</h2>
+      <div class="box">
+        <p><b>Mindyog</b> – A mental well-being website designed to reduce stress and anxiety, helping users feel
+          relaxed and happy.</p>
+        <p><b>Elevana</b> – An AI-powered learning platform that integrates multiple learning resources in one place. It
+          features an <b>interactive chatbot</b> to guide students, answer queries, and provide personalized support.
+        </p>
+        <p><b>Car Rental Website</b> – A responsive platform to browse, book, and manage car rentals efficiently.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hobbies :</h2>
+      <ul class="box">
+        <li>Writing Poetries</li>
+        <li>Dancing</li>
+        <li>Playing Volleyball</li>
+        <li>Playing Basketball</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mannat Rai | All Rights Reserved</p>
+    <div>
+      <a href="https://github.com/Mannat-Rai" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/mannat-rai-933806310" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+
+</html>
