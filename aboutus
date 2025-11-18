@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Styled Page</title>
+
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: hsl(210, 40%, 96%);
+            color: #333;
+        }
+
+        header {
+            background: #8b5cf6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgb(40, 40, 40); 
+            color: white;
+            margin-top: 30px;
+        }
+
+        
+        .section {
+            padding: 25px;
+            margin: 20px;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+      
+        .card {
+            border-left: 5px solid #8b5cf6;
+        }
+
+       
+        #about {
+            border-color: #10b981;
+        }
+
+      
+        section[id="movies"] {
+            border-left: 5px solid #e11d48; 
+        }
+
+        
+        .movie-list li:hover {
+            transform: translateX(5px);
+            transition: 0.2s;
+            color: #e11d48;
+        }
+
+        
+        .city-list li::marker {
+            color: rgb(120, 140, 255); 
+        }
+
+        
+        .movie-list li {
+            margin: 5px 0;
+        }
+
+        .fav-movie {
+            color: #ff0000; 
+            background: rgba(255, 0, 0, 0.1); 
+            padding: 4px 6px;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+        
+        .city-list li {
+            margin: 5px 0;
+            color: hsl(220, 60%, 35%); 
+            padding-left: 8px;
+            border-left: 4px solid #8b5cf6;
+            text-shadow: 1px 1px 2px rgb(180, 180, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>About Us</h1>
+        <p>Welcome to our styled webpage</p>
+    </header>
+
+    
+    <section class="section card" id="about">
+        <h2 class="section-title">Who We Are</h2>
+        <p>
+            We are a team of passionate developers and designers dedicated to creating beautifully designed, responsive web experiences.
+        </p>
+    </section>
+
+    
+    <section class="section card" id="movies">
+        <h2 class="section-title">Series I love</h2>
+        <ul class="movie-list">
+            <li>Harry potter</li>
+            <li class="fav-movie">The Vampire diaries</li>
+            <li>Money heist</li>
+            <li>Breaking bads</li>
+        </ul>
+    </section>
+
+   
+    <section class="section card" id="cities">
+        <h2 class="section-title">Cities to Visit</h2>
+        <ol class="city-list">
+            <li>Mumbai</li>
+            <li>Dubai</li>
+            <li>Paris</li>
+            <li>Tokyo</li>
+        </ol>
+    </section>
+
+    <footer>
+        © 2025 Styled Webpage — All Rights Reserved
+    </footer>
+
+</body>
+</html>
