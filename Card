@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #011222;
+    }
+    .card {
+      width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 15px;
+      background-color: #fff;
+      text-align: center;
+      
+    }
+    .card:hover{
+      
+    }
+    .card-img {
+      height: 200px;
+      background-image: url('https://images.unsplash.com/photo-1636718281370-b5e3f51a5af2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0');
+      background-size: cover;
+      background-position: center;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-content h3 {
+      margin: 0;
+      font-size: 20px;
+      color: #333;
+    }
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+      margin: 10px 0 20px;
+    }
+    .buttons button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 0 5px;
+      transition: background 0.3s;
+    }
+    .buttons button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-img"></div>
+    <div class="card-content">
+      <h3>Airforces!</h3>
+      <p>Comfortable and stylish sneakers for everyday wear.</p>
+      <div class="buttons">
+        <button class="buy-btn">Buy Now</button>
+        <button class="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
