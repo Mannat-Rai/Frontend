@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chessboard</title>
+  <style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eee;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: 4px solid #333;
+}
+
+.square,.square-rev{
+  width: 60px;
+  height: 60px;
+}
+
+.square:nth-child(odd) {
+  background: #cdb399; /* light */
+}
+.square:nth-child(even) {
+  background: #191714; /* light */
+}
+
+.square-rev:nth-child(even) {
+  background: #cdb399; /* dark */
+}
+.square-rev:nth-child(odd) {
+  background: #191714; /* dark */
+}
+
+</style>
+</head>
+<body>
+  <div class="chessboard">
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
